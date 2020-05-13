@@ -8,7 +8,8 @@ public class Area : MonoBehaviour {
     Animator anim;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         anim = GetComponent<Animator>();
 	}
 	
