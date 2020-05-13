@@ -7,7 +7,7 @@ public class ship : MonoBehaviour
 
     
 
-    //Codigo para eliminar Objetos
+    //Metodo para eliminar Objeto
     private void OnTriggerEnter2D(Collider2D other){
 
             if(other.name=="Naranja" || other.name=="Pera" ||
